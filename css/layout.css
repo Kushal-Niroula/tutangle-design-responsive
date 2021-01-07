@@ -528,6 +528,7 @@
        
     }
     .left-sidebar{
+        display:block;
         width:194px;
         float: left;
         margin-top:31px;
@@ -542,6 +543,7 @@
         width: 716px;
     }
     .right-sidebar{
+        display:block;
         width: 176px;
         float: right;
         margin-top:31px;
@@ -711,7 +713,9 @@
         margin-top: 15px;
         font-size:small;
     }
-    
+    .invites img , .friends img{
+        margin-left:0.7em;
+    }
     
     
 

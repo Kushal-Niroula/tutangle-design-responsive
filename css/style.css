@@ -102,11 +102,26 @@ text-decoration: underline;
    .setting_wrapper{
        width:23%;
    }
+   .lower_setting_wrapper{
+       float:right;
+   }
    .lower_setting_wrapper .nav{
        width:114%
    }
    .upper_setting_wrapper h5{
        font-size:medium;
    }
+   .nav-links{
+
+    float:left;
+}
+.lower_setting_wrapper .nav{
+    display:block;
+    margin-right:-15px;
+}
+
+.recent-search h5,.recent-search2 h5 {
+    padding:15px;
+}
 }
 
