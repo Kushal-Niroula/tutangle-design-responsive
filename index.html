@@ -1,19 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Tutangle</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <div class="body">
+<div class="body">
     <div class ="container">
         <div class = "header_wrapper">
             <div class="header_upper_wrapper">
                 <div class= "upper_content_wrapper">
-                    <div class="logo_wrapper"><img src="./assets/logo.png" alt="logo" class="logomob"></div>
+                    <div class="logo_wrapper"><img src="./assets/logo.png" alt="logo" class="logomob">
+                    </div>
                     
                     <div class="search_box">
                         <div class="formob">
@@ -24,7 +26,7 @@
                             <img src="assets/search-left.png" alt="search" />
                            </div>
                            <div class="bar">
-                            <input type="text" name="search" placeholder="Search by Term, Member or Entry Title">   
+                            <input class = "input" type="text" name="search" placeholder="Search by Term, Member or Entry Title">   
                             
                             </div>
                         <div class ="search-right">
@@ -38,21 +40,19 @@
                         </div>
                         
                     </div>
-                    
                     <div class="setting_wrapper">
                         <div class="upper_setting_wrapper">
                            <h5>Kushal Niroula</h5>
                         </div>
                         <div class="lower_setting_wrapper">
                             <ul class="nav">
-                                <li class="nav-links"><a href="#">Home &nbsp;</a><span>|</span></li>
+                                <li class="nav-links"><a href="#">Home&nbsp;</a><span>|</span></li>
                                 <li class="nav-links"><a href="#">Settings &nbsp;</a><span>|</span></li>
                                 <li class="nav-links"><a href="#">&nbsp;Logout</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div class ="header_lower_wrapper">
                 <div class="lower_content_wrapper">
@@ -78,7 +78,11 @@
                 </div>                
             </div>
         </div>
-        <div class = "main-body">
+
+        <!-- body part start -->
+                <div class = "main-body">
+            <div class="on_mob recent_search_m"><h5>Recent Searches</h5></div>
+            <div class="on_mob video_tutorial_m"><h5>Video Tutorials</h5></div>
             <div class="left-sidebar">
                 <div class="recent-search">
                     <h5>Recent Searches</h5>
@@ -100,7 +104,7 @@
                     </div>
                     
                 </div>
-            </div>
+            </div> 
             <div class="right-content">
                 <div class="entries">
                     <h3>Entries</h3>
@@ -108,16 +112,16 @@
                     <div class="all-entries">
                         <p class="center">All Entries</p>
                         <div class="bulbs">
-                            <p class="blueback"><a href="#">All Members</a></p>
-                            <p class="whiteback"><a href="#">Friends</a></p>
+                            <p class="blueback "><a href="#">All Members</a></p>
+                            <p class="whiteback "><a href="#">Friends</a></p>
                         </div>
                     </div>
                     <div class="subs">
-                        <div class="all-entries">
+                        <div class="all-entries R">
                         <p class="center">Subscribed</p>
                         <div class="bulbs">
-                            <p class="whiteback"><a href="#">New Entries</a></p>
-                            <p class="whiteback"><a href="#">New Comments</a></p>
+                            <p class="whiteback "><a href="#">New Entries</a></p>
+                            <p class="whiteback "><a href="#">New Comments</a></p>
                         </div>
                     </div>
                     </div>
@@ -208,20 +212,20 @@
             </div>
         </div>
         <div class="footer_wrapper">
-        <div class="footer">
-            
-            <ul class="footer-links">
-                <li class="nostyle"><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Feedback</a></li>
-            </ul>
-            <p>&copy;TuTangle 2013</p>
+            <div class="footer">
+                
+                <ul class="footer-links">
+                    <li class="nostyle"><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+                <p>&copy;TuTangle 2013</p>
+            </div>
         </div>
-    </div>
-    </div>
-    
+        </div>
 </div>
-</body>
+
+
 </html>
